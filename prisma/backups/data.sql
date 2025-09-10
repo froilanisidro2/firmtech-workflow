@@ -4,8 +4,10 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
+\restrict QcadV5lChZQmOrQi5sex70oA87x7xbcOzzluC7jRTbjqzurlUtgUlxSEb0cfbOM
+
 -- Dumped from database version 17.4
--- Dumped by pg_dump version 17.4
+-- Dumped by pg_dump version 17.6
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -636,5 +638,7 @@ SELECT pg_catalog.setval('"public"."migrations_id_seq"', 92, true);
 --
 -- PostgreSQL database dump complete
 --
+
+\unrestrict QcadV5lChZQmOrQi5sex70oA87x7xbcOzzluC7jRTbjqzurlUtgUlxSEb0cfbOM
 
 RESET ALL;
