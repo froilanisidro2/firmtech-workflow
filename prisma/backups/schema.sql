@@ -1,5 +1,4 @@
 
-\restrict 0vdJgTscXtUdSWXAIYxlOglKgwWtStayy3kDJHw9yvZ7MFAmCx1fTAgvf74ekGB
 
 
 SET statement_timeout = 0;
@@ -1637,6 +1636,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT ALL ON TAB
 
 
 
-\unrestrict 0vdJgTscXtUdSWXAIYxlOglKgwWtStayy3kDJHw9yvZ7MFAmCx1fTAgvf74ekGB
 
 RESET ALL;
